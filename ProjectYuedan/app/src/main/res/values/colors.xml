@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--白色 -->
+    <color name="white">#ffffff</color>
+    <!--灰色 -->
+    <color name="gray">#cccccc</color>
+    <color name="textGray">#bfbfbf</color>
+    <color name="textLightGray">#666666</color>
+    <color name="textDarkGray">#808080</color>
+    <color name="textDarkGray1">#999999</color>
+    <color name="inputDarkGray">#efeff4</color>
+    <color name="bgGray">#f9f9f9</color>
+    <color name="bgGray1">#eeeeee</color>
+    <color name="bgGray2">#e6e6e6</color>
+    <color name="bgDarkGray">#f0f0f0</color>
+
+    <!--黄色 -->
+    <color name="orange">#ff9111</color>
+    <!--红色 -->
+    <color name="titleRed">#DF3031</color>
+    <color name="titleRed1">#DF3030</color>
+    <color name="dotRed">#fb393f</color>
+    <color name="mainbtabRed">#E45758</color>
+
+    <!--黑色 -->
+    <color name="black">#000000</color>
+    <color name="textBlack">#1a1a1a</color>
+    <color name="textBlack1">#333333</color>
+
+</resources>

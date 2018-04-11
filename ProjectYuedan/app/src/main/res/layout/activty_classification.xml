@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <tohope.app.yuedan.customview.MyTitleBar
+        android:id="@+id/my_Class_titie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bg="@color/titleRed"
+        app:imgLeft="@mipmap/back"
+        app:textMid="@string/publish_skill" />
+
+    <ListView
+        android:id="@+id/lv_Clissication_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="@dimen/dimens_15"
+        android:dividerHeight="20dp"
+        android:divider="@color/white" />
+</LinearLayout>

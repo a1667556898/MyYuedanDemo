@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyTitleBar">
+        <attr name="bg" format="color|reference"/>
+        <attr name="imgLeft" format="reference"/>
+        <attr name="imgRight" format="reference"/>
+        <attr name="textMid" format="string|reference"/>
+        <attr name="textMidColor" format="color|reference"/>
+        <attr name="textLeft" format="string|reference"/>
+        <attr name="textLeftColor" format="color|reference"/>
+    </declare-styleable>
+
+
+</resources>

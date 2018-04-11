@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGray"
+    android:orientation="vertical">
+
+    <tohope.app.yuedan.customview.MyTitleBar
+        android:id="@+id/mt_Information_myTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bg="@color/titleRed"
+        app:textMid="@string/perfect_information" />
+
+    <LinearLayout
+        style="@style/Information_L"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <tohope.app.yuedan.customview.ImageViewPlus
+            android:id="@+id/ivp_information_header"
+            android:layout_width="@dimen/dimens_45"
+            android:layout_height="@dimen/dimens_45"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:src="@mipmap/header" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:text="@string/upload_avatar"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/text12" />
+
+        <TextView
+            style="@style/Information_text"
+            android:layout_marginTop="14dp"
+            android:text="@string/image_describe_o" />
+
+        <TextView
+            style="@style/Information_text"
+            android:layout_marginBottom="@dimen/dimens_15"
+            android:text="@string/image_describe_t" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Information_L"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <LinearLayout style="@style/Information_T">
+
+            <TextView
+                android:layout_width="@dimen/dimens_50"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/dimens_20"
+                android:text="@string/name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/et_input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_29"
+                    android:layout_marginRight="@dimen/dimens_15"
+                    android:background="@drawable/bg_input"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/dimens_5"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/text11" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimens_5"
+                    android:layout_marginRight="@dimen/dimens_10"
+                    android:layout_marginTop="@dimen/dimens_5"
+                    android:layout_weight="1"
+                    android:text="@string/name_describe"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/dimens_10" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_1"
+            android:background="@color/bgGray"></View>
+
+        <LinearLayout
+            style="@style/Information_T"
+            android:paddingLeft="@dimen/dimens_15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens_12"
+                android:layout_marginTop="@dimen/dimens_12"
+                android:text="@string/birthday"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/tv_Information_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens_12"
+                android:layout_marginLeft="@dimen/text13"
+                android:layout_marginTop="@dimen/dimens_12"
+                android:text="1990/1/1"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/text12" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_1"
+            android:background="@color/bgGray"></View>
+
+        <LinearLayout style="@style/Information_T">
+
+            <TextView
+                android:layout_width="@dimen/dimens_50"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/dimens_17"
+                android:text="@string/sex" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_29"
+                    android:layout_marginRight="@dimen/dimens_15"
+                    android:paddingLeft="@dimen/dimens_5">
+
+                    <CheckBox
+                        android:id="@+id/cb_Informtion_man"
+                        android:layout_width="@dimen/dimens_54"
+                        android:layout_height="@dimen/dimens_29"
+                        android:background="@drawable/sl_sex"
+                        android:button="@null"
+                        android:drawableLeft="@mipmap/mang"
+                        android:drawablePadding="@dimen/dimens_f15"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dimens_15"
+                        android:text="@string/sman" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Informtion_women"
+                        android:layout_width="@dimen/dimens_54"
+                        android:layout_height="@dimen/dimens_29"
+                        android:layout_marginLeft="@dimen/dimens_10"
+                        android:background="@drawable/sl_sex"
+                        android:button="@null"
+                        android:drawableLeft="@mipmap/womenw"
+                        android:drawablePadding="@dimen/dimens_f15"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dimens_15"
+                        android:text="@string/swomen" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimens_5"
+                    android:layout_marginRight="@dimen/dimens_10"
+                    android:layout_marginTop="@dimen/dimens_5"
+                    android:layout_weight="1"
+                    android:text="@string/sex_describe"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/dimens_10" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bu_Information_Complete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_45"
+            android:layout_marginLeft="@dimen/dimens_28"
+            android:layout_marginRight="@dimen/dimens_28"
+            android:background="@drawable/bg_tvlogin"
+            android:text="@string/complete"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_21"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimens_5"
+                android:src="@mipmap/click" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agree_comply"
+                android:textColor="@color/textBlack" />
+
+            <TextView
+                android:id="@+id/tv_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement"
+                android:textColor="@color/orange" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

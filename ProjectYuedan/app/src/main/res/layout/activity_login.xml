@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <tohope.app.yuedan.customview.MyTitleBar
+        android:id="@+id/myTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bg="@color/titleRed"
+        app:imgLeft="@mipmap/back"
+        app:textMid="@string/Login" />
+
+    <LinearLayout
+        style="@style/bg_Login"
+        android:layout_marginTop="@dimen/dimens_50">
+
+        <EditText
+            android:id="@+id/Et_PhoneNum"
+            style="@style/Ed_Login"
+            android:hint="@string/InputPhoneNum"
+            android:inputType="phone"
+            android:maxLength="11" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bg_Login"
+        android:layout_marginTop="@dimen/dimens_22">
+
+        <EditText
+            android:id="@+id/Et_PassWord"
+            style="@style/Ed_Login"
+            android:hint="@string/InputPassWord"
+            android:minEms="6"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_45"
+        android:layout_marginLeft="@dimen/dimens_28"
+        android:layout_marginRight="@dimen/dimens_28"
+        android:layout_marginTop="@dimen/dimens_50"
+        android:background="@drawable/bg_tvlogin"
+        android:gravity="center"
+        android:text="@string/Login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text16" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_40"
+        android:layout_marginRight="@dimen/dimens_40"
+        android:layout_marginTop="@dimen/dimens_10">
+
+        <TextView
+            android:id="@+id/tv_ForgetPassWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimens_5"
+            android:text="@string/ForgetPassWord"
+            android:textColor="@color/textDarkGray"
+            android:textSize="@dimen/text12" />
+
+        <TextView
+            android:id="@+id/tv_GoRegist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/dimens_5"
+            android:text="@string/GoRegist"
+            android:textColor="@color/textDarkGray"
+            android:textSize="@dimen/text12" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimens_110"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimens_50">
+
+        <ImageView
+            android:id="@+id/img_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dimens_5"
+            android:src="@mipmap/qq" />
+
+        <ImageView
+            android:id="@+id/img_weichat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dimens_5"
+            android:src="@mipmap/weichat" />
+    </RelativeLayout>
+</LinearLayout>

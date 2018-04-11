@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<CheckBox
+    android:id="@+id/cb_SkillStyle"
+    android:layout_width="@dimen/dimens_103"
+    android:layout_height="@dimen/dimens_25"
+    android:background="@drawable/bg_buclassification"
+    android:text="文艺"
+    android:textSize="@dimen/text12"
+    android:textColor="@color/textLightGray"
+    android:gravity="center"
+    android:button="@null"
+    />
+</LinearLayout>

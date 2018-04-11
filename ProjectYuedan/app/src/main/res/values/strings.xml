@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">城市脸盟约单</string>
+
+    <!-- 主界面tab-->
+    <string name="nearby">本地</string>
+    <string name="skill">技能</string>
+    <string name="release">发布</string>
+    <string name="demend">需求</string>
+    <string name="mine">我的</string>
+    <string name="Login">登录</string>
+    <string name="Regist">注册</string>
+    <string name="InputPhoneNum">请输入手机号</string>
+    <string name="InputPassWord">请输入密码</string>
+    <string name="ForgetPassWord">忘记密码</string>
+    <string name="GoRegist">没有账号？去注册</string>
+    <string name="InputIdentCode">请输入验证码</string>
+    <string name="Regist_tv1">约单平台会为您严格保密</string>
+    <string name="Regist_tv2">短信验证码收不到？</string>
+    <string name="Regist_tv3">点此接收语音验证码</string>
+    <string name="Next">下一步</string>
+    <string name="GetCode">获取验证码</string>
+    <!--个人中心-->
+    <string name="mine_center">个人中心</string>
+    <string name="quite">退出</string>
+    <string name="wallet">钱包</string>
+    <string name="album">相册</string>
+    <!--完善资料-->
+    <string name="perfect_information">完善资料</string>
+    <string name="upload_avatar">上传头像</string>
+    <string name="image_describe_o">为了增加您的可信度和成交率请确认是否已上</string>
+    <string name="image_describe_t">传个人形象照</string>
+    <string name="name">名字</string>
+    <string name="name_describe">名字为您在约单的个人品牌，注册完成后不可修改</string>
+    <string name="birthday">生日</string>
+    <string name="sex">性别</string>
+    <string name="swomen">女</string>
+    <string name="sman">男</string>
+    <string name="sex_describe">请确认性别是否正确，注册完成后不可修改</string>
+    <string name="agree_comply">我同意并遵守</string>
+    <string name="agreement">约单使用协议</string>
+    <string name="complete">完成</string>
+    <!--发布-->
+    <string name="publish_skill">发布技能</string>
+    <string name="publish_demand">发布需求</string>
+    <string name="novice_reading">新手必读 ></string>
+    <!--技能发布-->
+    <string name="skill_describe">为了防止受到干扰为达成交易意向前，请不要在需求请不要在需求详情中泄露联系方式和个人微信（发布时如有疑问，请致电40081900后或联系客服qq2160509807）</string>
+    <string name="skill_class"> 技能品牌：</string>
+    <string name="skill_style"> 风格类型（多选）</string>
+    <string name="skill_service"> 服务方式（多选）</string>
+    <string name="skill_service_describe">您收到的附件或同城的线下服务订单</string>
+    <string name="skill_service_phone">您收到全国电话咨询的订单</string>
+    <string name="skill_service_viveo">您收到全国视频咨询的订单</string>
+    <string name="skill_line">线下服务报价</string>
+    <string name="skill_phone">电话咨询报价</string>
+    <string name="skill_viveo">视频咨询报价</string>
+    <string name="skill_long">远程服务报价</string>
+    <string name="pricehour">元/小时</string>
+    <string name="skill_time">服务时间（多选）</string>
+    <string name="business_introduction">业务介绍</string>
+    <string name="upload_photos">请上传与技能相关的照片，或个人形象生活照，否则审核可能不通过哦</string>
+    <string name="complete_publish">完成发布</string>
+
+
+
+</resources>

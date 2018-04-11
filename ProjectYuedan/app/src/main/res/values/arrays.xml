@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 启动页图片-->
+    <array name="icons">
+        <item>@mipmap/img_first</item>
+        <item>@mipmap/img_first</item>
+        <item>@mipmap/img_first</item>
+    </array>
+
+    <string-array name="skillstyls">
+        <item>文艺范儿</item>
+        <item>老司机</item>
+        <item>逗比</item>
+        <item>暖心大白</item>
+        <item>二次元</item>
+        <item>百事通</item>
+        <item>可爱呆萌</item>
+        <item>气质优越</item>
+        <item>睿智沉稳</item>
+        <item>其他风格</item>
+    </string-array>
+    <string-array name="skilltime">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+</resources>

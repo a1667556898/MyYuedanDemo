@@ -1,0 +1,26 @@
+1 bitmapUtils:
+        Bitmap 管理类 可以将网络图片地址和data[]图片源转换位bitmap,也可以对图片进行压缩裁剪处理
+2 CountDownTimerUtils：
+	验证码倒计时管理类
+3 DensityUtils：
+	手机像素管理类 可以获取状态栏和导航栏的高度 可以在px dp sp之间相互转换
+4 JsonUtil：
+	结合Sharedpreference 使用的
+5 SharedPreferencesUtils：
+	简单数据存储管理类 可以直接存 读各个类型的数据 也可以直接存实体类
+6 LogUtils
+	dubge管理类 控制Log开关 调用各个方法直接打印Log
+7 LoginUtils
+	登录管理类 根据输入账号密码进行简单判断 里面的内容可根据实际情况修改
+8 MD5Utils
+	Md5加密
+9 NetUtils
+	网络管理类 判断是否有网络
+10 RegistUtils
+	注册管理类 根据输入账号密码进行简单判断 里面的内容可根据实际情况修改
+11 StringUtils
+	可以简单判断字符串类型 将字符串转换为其他数据类型 并获取Edittext数据
+12 ToastUtils
+	toast 管理类 可弹出原始toast 自定义位置toast 和自定义布局toast
+13 UIUtils
+	浸入式状态栏 状态栏颜色跟随当前页面颜色

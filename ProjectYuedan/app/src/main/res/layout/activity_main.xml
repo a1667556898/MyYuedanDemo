@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-10dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_60"
+        android:background="@mipmap/bg_maintab"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_nearby"
+            style="@style/mainTab_Rl">
+
+            <ImageView
+                android:id="@+id/img_nearby"
+                style="@style/mainTab_Img"
+                android:src="@mipmap/home_check" />
+
+            <TextView
+                android:id="@+id/tv_nearby"
+                style="@style/mainTab_Tv"
+                android:layout_below="@id/img_nearby"
+                android:text="@string/nearby"
+                android:textColor="@color/mainbtabRed" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_skill"
+            style="@style/mainTab_Rl">
+
+            <tohope.app.yuedan.customview.NumImageView
+                android:id="@+id/img_skill"
+                style="@style/mainTab_Img"
+                android:src="@mipmap/skill_uncheck" />
+
+            <TextView
+                android:id="@+id/tv_skill"
+                style="@style/mainTab_Tv"
+                android:layout_below="@id/img_skill"
+                android:text="@string/skill"
+                android:textColor="@color/textDarkGray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_release"
+            style="@style/mainTab_Rl">
+
+            <ImageView
+                android:id="@+id/img_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/add_check" />
+
+            <TextView
+                android:id="@+id/tv_release"
+                style="@style/mainTab_Tv"
+                android:layout_below="@id/img_release"
+                android:text="@string/release"
+                android:textColor="@color/textDarkGray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_demand"
+            style="@style/mainTab_Rl">
+
+            <tohope.app.yuedan.customview.NumImageView
+                android:id="@+id/img_demand"
+                style="@style/mainTab_Img"
+                android:src="@mipmap/need_uncheck" />
+
+            <TextView
+                android:id="@+id/tv_demand"
+                style="@style/mainTab_Tv"
+                android:layout_below="@id/img_demand"
+                android:text="@string/demend"
+                android:textColor="@color/textDarkGray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_mine"
+            style="@style/mainTab_Rl">
+
+            <ImageView
+                android:id="@+id/img_mine"
+                style="@style/mainTab_Img"
+                android:src="@mipmap/my_uncheck" />
+
+            <TextView
+                android:id="@+id/tv_mine"
+                style="@style/mainTab_Tv"
+                android:layout_below="@id/img_mine"
+                android:text="@string/mine"
+                android:textColor="@color/textDarkGray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

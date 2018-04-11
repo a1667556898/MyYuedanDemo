@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGray"
+    android:orientation="vertical">
+
+    <tohope.app.yuedan.customview.MyTitleBar
+        android:id="@+id/mtb_mine_myTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bg="@color/titleRed"
+        app:textMid="@string/mine_center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_64"
+        android:background="@color/white"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_mine_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/dimens_10">
+
+            <tohope.app.yuedan.customview.ImageViewPlus
+                android:id="@+id/ivp_mine_headerimage"
+                android:layout_width="@dimen/dimens_45"
+                android:layout_height="@dimen/dimens_45"
+                android:layout_marginLeft="@dimen/dimens_10"
+                android:src="@mipmap/testimage" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignRight="@id/ivp_mine_headerimage"
+                android:layout_marginLeft="@dimen/dimens_10"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_mine_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_0"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="张晓晓"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/text13" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_0"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/tv_mine_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/women"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_mine_age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimens_5"
+                        android:text="24岁"
+                        android:textColor="@color/textDarkGray"
+                        android:textSize="@dimen/text13" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimens_10"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_minecenter_quite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_quite_gray">
+
+                <TextView
+                    android:layout_width="@dimen/dimens_45"
+                    android:layout_height="@dimen/dimens_21"
+                    android:gravity="center"
+                    android:text="@string/quite"
+                    android:textColor="@color/textLightGray"
+                    android:textSize="@dimen/text12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens_20"
+                android:src="@mipmap/arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimens_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_93">
+
+            <LinearLayout
+                android:id="@+id/ll_minecenter_wallet"
+                style="@style/L_Select">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/wallet" />
+
+                <TextView
+                    style="@style/L_Select_word"
+                    android:text="@string/wallet" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_minecenter_album"
+                style="@style/L_Select"
+                android:layout_marginLeft="@dimen/dimens_1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/album" />
+
+                <TextView
+                    style="@style/L_Select_word"
+                    android:text="@string/album" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
